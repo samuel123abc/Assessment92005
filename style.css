@@ -143,3 +143,11 @@ marquee {
 h1 {text-align: center;}
 
 h3 {text-align: center;}
+
+blockquote {text-align: center;}
+
+iframe {text-align: center;}
+
+.further {
+  text-align: center;
+}
