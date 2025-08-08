@@ -3,41 +3,50 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <!-- Page title shown in browser tab -->
   <title>SSNZ [HOME]</title>
+
   <style>
+    /* Reset default margin */
     body {
       margin: 0;
       font-family: "Segoe UI", sans-serif;
-      background-color: #f4f8f2;
-      color: #2c3e50;
+      background-color: #f4f8f2; /* Soft background green */
+      color: #2c3e50; /* Dark blue/grey text */
     }
 
+    /* Header styling (top section of page) */
     header {
-  background-color: #d5f5dc;  /* Light native green */
-  color: #1b4332;             /* Dark green text */
-  padding: 80px 20px;
-  text-align: center;
-}
+      background-color: #d5f5dc;  /* Light native green */
+      color: #1b4332;             /* Dark green text */
+      padding: 80px 20px;         /* Space inside header */
+      text-align: center;
+    }
 
-header h1 {
-  font-size: 3em;
-  margin: 0;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
-}
+    /* Main heading style in header */
+    header h1 {
+      font-size: 3em;
+      margin: 0;
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    }
 
-header p {
-  font-size: 1.5em;
-  margin-top: 10px;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
-}
+    /* Subheading style in header */
+    header p {
+      font-size: 1.5em;
+      margin-top: 10px;
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    }
 
+    /* Navigation bar container */
     nav {
-      background-color: #2c3e50;
+      background-color: #2c3e50; /* Dark blue/grey */
       display: flex;
       justify-content: center;
       padding: 10px 0;
     }
 
+    /* Navigation links style */
     nav a {
       color: white;
       margin: 0 15px;
@@ -45,30 +54,36 @@ header p {
       font-weight: bold;
     }
 
+    /* Navigation links hover effect */
     nav a:hover {
       text-decoration: underline;
     }
 
+    /* Main content container */
     .content {
       padding: 40px 20px;
       max-width: 1000px;
       margin: auto;
     }
 
+    /* Each section inside content */
     .section {
       margin-bottom: 40px;
     }
 
+    /* Section headings */
     .section h2 {
-      color: #1e6b34;
+      color: #1e6b34; /* Medium green */
     }
 
+    /* Call-to-action box */
     .cta {
-      background-color: #e8f5e9;
+      background-color: #e8f5e9; /* Light green */
       padding: 20px;
-      border-left: 5px solid #388e3c;
+      border-left: 5px solid #388e3c; /* Dark green left border */
     }
 
+    /* Footer style */
     footer {
       background-color: #2c3e50;
       color: white;
@@ -77,6 +92,7 @@ header p {
       margin-top: 40px;
     }
 
+    /* Responsive design: smaller font sizes for small screens */
     @media (max-width: 600px) {
       header h1 {
         font-size: 2em;
@@ -89,18 +105,18 @@ header p {
       .content {
         padding: 20px 10px;
       }
-
     }
   </style>
 </head>
 <body>
 
+  <!-- Header with site name and greeting -->
   <header>
     <h1>Hello and Welcome to Save New Zealand's Species</h1>
     <h2>Kia Ora, Nau Mai ki te Whakaora i Nga Momo o Aotearoa</h2>
-
   </header>
 
+  <!-- Navigation menu -->
   <nav>
     <a href="index.html"><b>Home</b></a>
     <a href="Threats.html">Threats</a>
@@ -109,31 +125,37 @@ header p {
     <a href="Contact Us.html">Contact</a>
   </nav>
 
+  <!-- Main content area -->
   <div class="content">
+    <!-- Introductory section -->
     <div class="section">
       <h2>Welcome</h2>
-      <p>New Zealand is home to many unique native species found nowhere else in the world — from the iconic kiwi to the ancient tuatara. However, many of these species are in danger due to habitat loss, introduced predators, and climate change.</p>
+      <p>New Zealand is home to many unique native species found nowhere else in the world, from the iconic kiwi to the ancient tuatara. However, many of these species are in danger due to habitat loss, introduced predators, and climate change.</p>
     </div>
 
+    <!-- Causes of species decline -->
     <div class="section">
       <h2>Why Are Species Declining?</h2>
       <p>Human activity has had a major impact on native ecosystems. Since human settlement, over 50 species of birds have gone extinct. Introduced species such as rats, stoats, and possums are among the biggest threats. Conservation efforts are underway, but time is running out.</p>
     </div>
 
+    <!-- Call-to-action box encouraging help -->
     <div class="cta">
       <h3>What Can You Do?</h3>
       <p>Every action counts. Support predator-free initiatives, plant native trees, and spread awareness. Together, we can protect New Zealand’s precious biodiversity.</p>
     </div>
   </div>
 
-<!-- Elfsight Website Translator | Untitled Website Translator -->
-<script src="https://static.elfsight.com/platform/platform.js" async></script>
-<div class="elfsight-app-a8f06703-b390-4ca6-b3ad-0bc64a216307" data-elfsight-app-lazy></div>
+  <!-- External widget: Website translator -->
+  <!-- Provided by Elfsight -->
+  <script src="https://static.elfsight.com/platform/platform.js" async></script>
+  <div class="elfsight-app-a8f06703-b390-4ca6-b3ad-0bc64a216307" data-elfsight-app-lazy></div>
 
-<!-- Elfsight Accessibility | Untitled Accessibility -->
-<script src="https://static.elfsight.com/platform/platform.js" async></script>
-<div class="elfsight-app-e76672fe-f234-4ce1-9202-ce585eb6f299" data-elfsight-app-lazy></div>
+  <!-- External widget: Accessibility tools -->
+  <script src="https://static.elfsight.com/platform/platform.js" async></script>
+  <div class="elfsight-app-e76672fe-f234-4ce1-9202-ce585eb6f299" data-elfsight-app-lazy></div>
 
+  <!-- Footer -->
   <footer>
     &copy; 2025 Save NZ Species
   </footer>
